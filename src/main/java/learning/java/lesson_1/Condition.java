@@ -4,6 +4,7 @@ public class Condition {
 
     public Boolean isPositive(int number){
         //@TODO return true if number is positive
+        if(number>=0) return true;
         return false;
     }
 
